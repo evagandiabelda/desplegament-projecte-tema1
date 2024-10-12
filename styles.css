@@ -10,6 +10,9 @@ header {
   padding: 10px 0;
   text-align: center;
 }
+main {
+  padding: 32px;
+}
 nav ul {
   list-style: none;
   padding: 0;
@@ -21,4 +24,7 @@ nav ul li {
 nav ul li a {
   color: #fff;
   text-decoration: none;
+}
+.hide {
+  display: none;
 }

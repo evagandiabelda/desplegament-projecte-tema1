@@ -13,30 +13,41 @@
         <h1>Benvinguts al Curs de Javascript</h1>
         <nav>
             <ul>
-                <li><a href="#home">Inici</a></li>
+                <li><a href="#home" id="menu-home" class="menu-item">Inici</a></li>
+                <li><a href="#contingutHTML" id="menu-contingutHTML" class="menu-item">Modificar contingut HTML</a></li>
+                <li><a href="#estilsCSS" id="menu-estilsCSS" class="menu-item">Modificar estils CSS</a></li>
+                <li><a href="#atributsHTML" id="menu-atributsHTML" class="menu-item">Modificar atributs HTML</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <h2>Descripció del Curs</h2>
-        <p>Aquesta és una breu descripció del curs de Javascript aplicat a les interaccions amb elements HTML.</p>
 
-        <!-- Exemple d'interacció (usuari2): -->
-        <h2>Modificar Contingut HTML</h2>
-        <button onclick="document.getElementById('demo').innerHTML = 'Contingut modificat!';">Modifica
-            Contingut</button>
-        <p id="demo">Aquest text es modificarà quan faces clic al botó.</p>
+        <section id="home" class="seccio">
+            <h2>Descripció del Curs</h2>
+            <p>Aquesta és una breu descripció del curs de Javascript aplicat a les interaccions amb elements HTML.</p>
+        </section>
 
-        <!-- Modificació d'un atribut (usuari2): -->
-        <h2>Modificar Atributs HTML</h2>
-        <button onclick="document.getElementById('myImage').src='https://via.placeholder.com/150';">Canvia
-            Imatge</button>
-        <img id="myImage" src="https://via.placeholder.com/100" alt="Imatge inicial">
+        <section id="contingutHTML" class="seccio hide">
+            <!-- Exemple d'interacció (usuari2): -->
+            <h2>Modificar Contingut HTML</h2>
+            <button id="boto-modif-contingut">Modifica Contingut</button>
+            <p id="demo">Aquest text es modificarà quan faces clic al botó.</p>
+        </section>
+
+        <section id="estilsCSS" class="seccio hide">
+            <!-- Modificació d'estils CSS (usuari2): -->
+            <h2>Modificar Estils CSS</h2>
+            <p>L'usuari 3 ha afegit alguns estils CSS.</p>
+        </section>
+
+        <section id="atributsHTML" class="seccio hide">
+            <!-- Modificació d'un atribut (usuari2): -->
+            <h2>Modificar Atributs HTML</h2>
+            <button id="boto-modif-atribut">Canvia Imatge</button>
+            <img id="imatge" src="/imgs/imatge1.png" alt="Imatge inicial">
+        </section>
 
     </main>
-    <footer>
-        <p>Projecte de Javascript</p>
-    </footer>
     <script src="js/script.js"></script>
 </body>
 
