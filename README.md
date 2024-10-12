@@ -50,124 +50,124 @@ En aquest projecte, utilitzem Git Flow per organitzar el desenvolupament de mane
 
 ### Inicialització del repositori:
 
-![Captura](captures/1%20-%20Creació%20d'un%20nou%20repositori%20a%20GitHub.png)
+![Captura](captures/1.png)
 
 ### Creació dels directoris per a cada usuari:
 
 Comencem treballant de moment amb els Usuaris 1 i 2:
-![Captura](captures/2%20-%20Creació%20d'un%20directori%20per%20a%20cada%20usuari.png)
+![Captura](captures/2.png)
 
 Clonem el repositori remot al directori de cada Usuari:
-![Captura](captures/3%20-%20Clonació%20del%20repositori%20per%20a%20cada%20usuari.png)
+![Captura](captures/3.png)
 
 ### Usuari 1:
 
 Al repositori local de l’Usuari 1, configurem Git Flow:
-![Captura](</captures/4%20-%20Configuració%20de%20Git%20Flow%20(usuari1).png>)
+![Captura](/captures/4.png)
 
 A continuació, creem l’estructura d’arxius del projecte:
-![Captura](</captures/5%20-%20Creació%20de%20l'estructura%20de%20fitxers%20del%20projecte%20(usuari1).png>)
+![Captura](/captures/5.png)
 
 Implementem el codi HTML inicial:
-![Captura](</captures/6%20-%20Implementació%20del%20codi%20HTML%20inicial%20(usuari1).png>)
+![Captura](/captures/6.png)
 
 Realitzem un primer commit amb el que portem fins ara:
-![Captura](</captures/7%20-%20Primer%20commit%20(usuari1).png>)
+![Captura](/captures/7.png)
 
 I ho enviem al repositori remot:
-![Captura](</captures/8%20-%20Primer%20push%20(usuari1).png>)
+![Captura](/captures/8.png)
 
 ### Usuari 2:
 
 Canviem a l’Usuari 2 i configurem Git Flow al seu repositori local:
-![Captura](</captures/9%20-%20Configuració%20de%20Git%20Flow%20(usuari2).png>)
+![Captura](/captures/9.png)
 
 Actualitzem el repositori local, però ens dóna un error:
-![Captura](</captures/10%20-%20Actualització%20del%20repositori%20-%20Dóna%20un%20error%20(usuari2).png>)
+![Captura](/captures/10.png)
 
 Després d’investigar sobre aquest error (sense entendre massa bé què passa), apliquem la solució i, ara sí, el repositori local de l’Usuari 2 està actualitzat:
-![Captura](</captures/10%20-%20Actualització%20del%20repositori%20-%20Solucionat%20(usuari2).png>)
+![Captura](/captures/10b.png)
 
 Creem una nova branca Feature anomenada “contingutHTML”:
-![Captura](</captures/11%20-%20Creació%20de%20la%20rama%20feature%20contingutHTML%20(usuari2).png>)
+![Captura](/captures/11.png)
 
 Des d’aquesta branca, afegim una nova funcionalitat:
-![Captura](</captures/12%20-%20Afegiment%20d'exemple%20de%20modificació%20al%20HTML%20(usuari2).png>)
+![Captura](/captures/12.png)
 
 A continuació, realitzem un commit per als canvis implementats:
-![Captura](</captures/13%20-%20Primer%20commit%20(usuari2).png>)
+![Captura](/captures/13.png)
 
 I després pugem els canvis al repositori remot:
-![Captura](</captures/14%20-%20Primer%20push%20(usuari2).png>)
+![Captura](/captures/14.png)
 
 Per altra banda, creem una altra branca Feature anomenada “atributsHTML”:
-![Captura](</captures/15%20-%20Creació%20de%20la%20rama%20feature%20atributsHTML%20(usuari2).png>)
+![Captura](/captures/15.png)
 
 I, des d’aquesta branca, afegim una altra funcionalitat:
-![Captura](</captures/16%20-%20Afegiment%20d'exemple%20de%20modificació%20al%20HTML%20(usuari2).png>)
+![Captura](/captures/16.png)
 
 Realitzem el corresponent commit:
-![Captura](</captures/17%20-%20Segon%20commit%20(usuari2).png>)
+![Captura](/captures/17.png)
 
 I després pugem aquests canvis al repositori remot:
-![Captura](</captures/18%20-%20Segon%20push%20(usuari2).png>)
+![Captura](/captures/18.png)
 
 Una vegada pujats tots els canvis, finalitzem les branques Feature, però a la segona ens dóna un error:
-![Captura](</captures/19%20-%20Finalització%20de%20la%20rama%20feature%20contingutHTML%20(usuari2).png>)
-![Captura](</captures/20%20-%20Finalització%20de%20la%20rama%20feature%20atributsHTML%20-%20Dóna%20error%20(usuari2).png>)
+![Captura](/captures/19.png)
+![Captura](/captures/20.png)
 
 Com la informació de la segona branca Feature no havia estat actualitzada, detecta un conflicte:
-![Captura](</captures/21%20-%20Visualització%20del%20conflicte%20(usuari2).png>)
+![Captura](/captures/21.png)
 
 Resolem el conflicte mantenint ambdós funcionalitats:
-![Captura](</captures/22%20-%20Ressolució%20del%20conflicte%20-%20Conservem%20ambdós%20implementacions%20(usuari2).png>)
+![Captura](/captures/22.png)
 
 Ara sí, realitzem el push corresponent:
-![Captura](</captures/23%20-%20Tercer%20push%20(usuari2).png>)
+![Captura](/captures/23.png)
 
 I finalitzem la branca “feature/atributsHTML”:
-![Captura](</captures/24%20-%20Finalització%20de%20la%20rama%20feature%20atributsHTML%20-%20Solucionat%20(usuari2).png>)
+![Captura](/captures/24.png)
 
 Els canvis no apareixen reflexats al repositori remot, així que resolem el problema fent un nou push des de la branca “develop”:
-![Captura](</captures/25%20-%20Push%20des%20de%20la%20branch%20Develop%20(usuari2).png>)
+![Captura](/captures/25.png)
 
 ### Usuari 3:
 
 Creem el directori que allotjarà la còpia local del repositori per a l’Usuari 3 i clonem en aquesta el repositori remot:
-![Captura](</captures/26%20-%20Creació%20de%20l'usuari3%20i%20clonació%20de%20repositori%20(usuari3).png>)
+![Captura](/captures/26.png)
 
 Configurem Git Flow per a aquest Usuari:
-![Captura](</captures/27%20-%20Configuració%20de%20Git%20Flow%20(usuari3).png>)
+![Captura](/captures/27.png)
 
 Afegim nous estils CSS al full d’estils:
-![Captura](</captures/28%20-%20Afegiment%20de%20nous%20estils%20CSS%20(usuari3).png>)
+![Captura](/captures/28.png)
 
 Realitzem un primer commit de l’Usuari 3:
-![Captura](</captures/29%20-%20Primer%20commit%20(usuari3).png>)
+![Captura](/captures/29.png)
 
 I després enviem els canvis al repositori remot:
-![Captura](</captures/30%20-%20Primer%20push%20(usuari3).png>)
+![Captura](/captures/30.png)
 
 ### Modificacions finals:
 
 Canviem de nou a l’Usuari 1 i actualitzem la info de la branca Develop:
-![Captura](</captures/31%20-%20Canvi%20a%20l'usuari%201%20i%20actualització%20de%20la%20branca%20Develop%20(usuari1).png>)
+![Captura](/captures/31.png)
 
 A partir d’aquesta, creem una nova branca Release anomenada “v1.0”:
-![Captura](</captures/32%20-%20Creació%20de%20nova%20branca%20Release%20v1.0%20(usuari1).png>)
+![Captura](/captures/32.png)
 
 Des d’aquesta branca, realitzem algunes modificacions lleugeres en quant a l’estructuració del codi. Per exemple, ara que ja tenim les diferents seccions implementades per la resta d’usuaris, les afegim al menú principal. A més, enviem tot el codi Javascript a l’arxiu “script.js”, deixant el codi HTML molt més net:
-![Captura](</captures/33%20-%20Ordenació%20de%20l'estructura%20i%20modificacions%20sobre%20el%20codi%20(usuari1).png>)
+![Captura](/captures/33.png)
 
 A continuació, realitzem un commit amb les millores implementades:
-![Captura](</captures/34%20-%20Commit%20des%20de%20la%20branca%20Release%20(usuari1).png>)
+![Captura](/captures/34.png)
 
 Realitzem un merge de la branca “release/v1.0” amb la branca “Develop” i enviem la informació al repositori remot:
-![Captura](</captures/35%20-%20Merge%20de%20release%20v1.0%20amb%20Develop%20i%20Push%20al%20repositori%20remot%20(usuari1).png>)
+![Captura](/captures/35.png)
 
 Per últim, creem la branca “gh-pages”, la qual allotjarà la documentació del projecte:
-![Captura](</captures/36%20-%20Creació%20de%20la%20branca%20gh-pages%20(usuari1).png>)
+![Captura](/captures/36.png)
 
 Creem l’arxiu README.md i l’emplenem amb la informació corresponent:
-![Captura](</captures/37%20-%20Creació%20de%20l'arxiu%20README.md%20(usuari1).png>)
-![Captura](</captures/38%20-%20Afegiment%20de%20la%20documentació%20a%20l'arxiu%20README.md%20(usuari1).png>)
+![Captura](/captures/37.png)
+![Captura](/captures/38.png)
