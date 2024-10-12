@@ -50,15 +50,15 @@ En aquest projecte, utilitzem Git Flow per organitzar el desenvolupament de mane
 
 ### Inicialització del repositori:
 
-![Captura](/captures/1%20-%20Creació%20d'un%20nou%20repositori%20a%20GitHub.png)
+![Captura](captures/1%20-%20Creació%20d'un%20nou%20repositori%20a%20GitHub.png)
 
 ### Creació dels directoris per a cada usuari:
 
 Comencem treballant de moment amb els Usuaris 1 i 2:
-![Captura](/captures/2%20-%20Creació%20d'un%20directori%20per%20a%20cada%20usuari.png)
+![Captura](captures/2%20-%20Creació%20d'un%20directori%20per%20a%20cada%20usuari.png)
 
 Clonem el repositori remot al directori de cada Usuari:
-![Captura](/captures/3%20-%20Clonació%20del%20repositori%20per%20a%20cada%20usuari.png)
+![Captura](captures/3%20-%20Clonació%20del%20repositori%20per%20a%20cada%20usuari.png)
 
 ### Usuari 1:
 
